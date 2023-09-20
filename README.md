@@ -1,6 +1,7 @@
 # Book-My-Show-Backend
+Author - Mehul Yadav
 
-This is a backend of Book My Show where the user data is being fetched, stored and retrived flexibly from MongoDB and shown on the UI.
+This is a Backend of the Book My Show project where the user data is being fetched, stored, and retrieved flexibly from MongoDB and shown on the UI.
 
 ## ⭐ Technologies that are used.
 ### Backend
@@ -12,16 +13,16 @@ This is a backend of Book My Show where the user data is being fetched, stored a
 
 ### Endpoint
 - GET -  http://localhost:8080/api/booking
-       - for geting the booking information from Database
+       - for getting the booking information from the Database
 - POST - http://localhost:8080/api/booking
-       - for sending the booking information to Database 
+       - for sending the booking information to the Database 
 
 ## 🛠 Installation and Setup Instructions
 
 1. Installation: `npm install`
 
 2. In the project directory, you can run: `node index.js`
-- use Nodemon instead of Node for API .
+- use Nodemon instead of Node for API.
 - First install nodemon
 - Then check the API 
 

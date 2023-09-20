@@ -1,8 +1,12 @@
 {
+<<<<<<< HEAD
   "name": "bookyourshow-server",
   "homepage": "https://mehultech1995.github.io/BookMyShow-BackEnd",
+=======
+  "name": "bookmyshow-server",
+>>>>>>> 1ac0170732c919f5694ef83ed1d4d7d988d005a8
   "version": "1.0.0",
-  "description": "This backend of Book Your Show where the user data is being stored and retrived flexibly from MongoDB and shown on the UI.",
+  "description": "This is the backend of Book My Show where the user data is being stored and retrieved flexibly from MongoDB and shown on the UI.",
   "main": "index.js",
   "scripts": {
     "test": "mocha '__tests__/*.test.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
