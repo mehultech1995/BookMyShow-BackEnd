@@ -1,5 +1,6 @@
 {
   "name": "bookyourshow-server",
+  "homepage": "https://mehultech1995.github.io/BookMyShow-BackEnd",
   "version": "1.0.0",
   "description": "This backend of Book Your Show where the user data is being stored and retrived flexibly from MongoDB and shown on the UI.",
   "main": "index.js",
@@ -7,7 +8,9 @@
     "test": "mocha '__tests__/*.test.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
     "run": "node ./index.js",
     "start": "nodemon ./index.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Mehul",
   "license": "ISC",
@@ -23,6 +26,7 @@
     "router": "^1.3.7"
   },
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "nodemon": "^2.0.20"
   }
 }
