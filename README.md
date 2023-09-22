@@ -1,10 +1,10 @@
 # Book-My-Show-Backend
 Author - Mehul Yadav
-email- mehulyadav995@gmail.com
+Email- mehulyadav995@gmail.com
 
 This is a Backend of the Book My Show project where the user data is being fetched, stored, and retrieved flexibly from MongoDB and shown on the UI.
 
-## ⭐ Technologies that are used.
+## ⭐ Technologies that are used
 ### Backend
 -  Express
       - Backend is based on Express.Js
@@ -13,9 +13,9 @@ This is a Backend of the Book My Show project where the user data is being fetch
       - for Data storage by MongoDB Connection
 
 ### Endpoint
-- GET -  http://localhost:8080/api/booking
+- GET -  https://bookmyshowapi-r3ks.onrender.com/api/booking
        - for getting the booking information from the Database
-- POST - http://localhost:8080/api/booking
+- POST - https://bookmyshowapi-r3ks.onrender.com/api/booking
        - for sending the booking information to the Database 
 
 ## 🛠 Installation and Setup Instructions

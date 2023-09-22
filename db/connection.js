@@ -25,4 +25,5 @@ const connectToMongo = async () => {
     });
 };
 
+// Call the connect function to establish the connection
 exports.connection = connectToMongo;
