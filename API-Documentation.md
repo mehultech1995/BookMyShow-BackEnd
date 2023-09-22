@@ -5,8 +5,8 @@ The BookMyShow API provides the of endpoints to add movie booking details as wel
 
 <h3>The endpoints will interact with bookMovie database.</h3>
  
-<h5>POST Booking</h5>
-<h5>GET Last booking</h5>
+<p>POST Booking</p>
+<p>GET Last booking</p>
 
 <h4>Available Endpoints:</h4>
 
