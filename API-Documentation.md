@@ -88,10 +88,10 @@ Description: Get last booking details.
 
 GET /api/booking Host: loclahost:8080 Content-Type: application/json
 
-Example Response (200 OK):
+<h5>Example Response (200 OK):</h5>
 {"_id":{"$oid":"64d0a80209a4852908bede8a"},"movie":"OMG 2","slot":"03:00 PM","seats":{"A1":0,"A2":0,"A3":4,"A4":0,"D1":0,"D2":0},"bookedAt":{"$date":"2023-09-22T08:14:58.162Z"},"__v":0}
 
-Example 2: Error handling
+<h4>Example 2: Error handling</h4>
 <p>Endpoint: /api/booking</p>
 
 <p>Method: GET</p>
