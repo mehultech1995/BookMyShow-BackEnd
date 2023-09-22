@@ -60,23 +60,6 @@ The BookMyShow API provides the of endpoints to add movie booking details as wel
 
 `{ "movie": "OMG 2", "slot": "03:00 PM", "seats": { "A1": 0, "A2": 0, "A3": 4, "A4": 0, "D1": 0, "D2": 0 } }`
 
-##### **Example Response (422** Unprocessable Content**):**
-
-{  
-"error": {  
-"code": 422,  
-"message": "Failed to create booking. Please try again later."  
-}  
-}
-
-##### **Example Response (**400 Bad Request **):**
-
-{  
-"error": {  
-"code": 400,  
-"message": "Invalid booking data. Please provide valid details."  
-}  
-}
 
 ##### **Example Response (**500 internal server error**):**
 
@@ -100,7 +83,7 @@ The BookMyShow API provides the of endpoints to add movie booking details as wel
 
 `{"_id":{"$oid":"64d0a80209a4852908bede8a"},"movie":"OMG 2","slot":"03:00 PM","seats":{"A1":0,"A2":0,"A3":4,"A4":0,"D1":0,"D2":0},"bookedAt":{"$date":"2023-09-18T08:14:58.162Z"},"__v":0}`
 
-##### **Example 2: Error handling**
+##### **Example 2: getBooking Error handling**
 
 **Endpoint:** `/api/booking`
 
@@ -110,20 +93,20 @@ The BookMyShow API provides the of endpoints to add movie booking details as wel
 
 `GET /api/booking Host: loclahost:8080 Content-Type: application/json`
 
-##### **Example Response (**500 internal server error**):**
+##### **Example Response (**503 internal server error**):**
 
 {  
 "error": {  
-"code": 500,  
+"code": 503,  
 "message": "something went wrong!"  
 }  
 }
 
-##### **Example Response (**404 Not Found**):**
+##### **Example Response (**200 Not Found**):**
 
 {  
 "error": {  
-"code": 404,  
+"code": 200,  
 "message": "No previous booking found."  
 }  
 }
