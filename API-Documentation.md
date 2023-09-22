@@ -21,10 +21,10 @@ The BookMyShow API provides the of endpoints to add movie booking details as wel
 
 <h4>Get Last Booking</h4>
 
-:arrow_right: Endpoint: /api/booking
-:arrow_right: Method: GET
-:arrow_right: Description: This endpoint retrieves the details of the last booking made.
-:arrow_right: Response Data
+<p>:arrow_right: Endpoint: /api/booking</p>
+<p>:arrow_right: Method: GET</p>
+<p>:arrow_right: Description: This endpoint retrieves the details of the last booking made.</p>
+<p>:arrow_right: Response Data</p>
 { "movie": "OMG 2", "slot": "03:00 PM", "seats": { "A1": 0, "A2": 0, "A3": 4, "A4": 0, "D1": 0, "D2": 0 }, "_id": "64d0af4709a4852908bede8d", "bookedAt": "2023-09-22T08:45:59.544Z", "__v": 0}
 
 <h3>Response Codes:</h3>
