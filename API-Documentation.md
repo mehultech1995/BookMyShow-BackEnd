@@ -3,25 +3,24 @@
 The BookMyShow API provides the of endpoints to add movie booking details as well as retrieve last booking details.</p>
 
 <h1> Getting started <h1/>
-
-<h3>The endpoints will interact with bookMovie database.</h3>
+<h4>The endpoints will interact with bookMovie database.</h4>
  
-Database	Function
-bookMovie	POST Booking
-bookMovie	GET Last booking
+<h4>Function</h4>
+<h4>POST Booking</h4>
+<h4>GET Last booking</h4>
 
-<h3>Available Endpoints:</h3>
+<h4>Available Endpoints:</h4>
 
-<h3>Create a Movie Booking</h3>
+<h4>Create a Movie Booking</h4>
 
-Endpoint: /api/booking
+<h4>Endpoint:</h4> <p>/api/booking</p>
 Method: POST
 Description: This endpoint allows you to create a new movie booking.
 Request body
 
 { "movie": "OMG 2", "slot": "03:00 PM", "seats": { "A1": 0, "A2": 0, "A3": 4, "A4": 0, "D1": 0, "D2": 0 } }
 
-<h3>Get Last Booking</h3>
+<h4>Get Last Booking</h4>
 
 Endpoint: /api/booking
 Method: GET
@@ -29,9 +28,9 @@ Description: This endpoint retrieves the details of the last booking made.
 Response Data
 { "movie": "OMG 2", "slot": "03:00 PM", "seats": { "A1": 0, "A2": 0, "A3": 4, "A4": 0, "D1": 0, "D2": 0 }, "_id": "64d0af4709a4852908bede8d", "bookedAt": "2023-09-22T08:45:59.544Z", "__v": 0}
 
-<h3>Response Codes:</h3>
+<h4>Response Codes:</h4>
 
-<h3>Example 1: Create booking successfully</h3>
+<h4>Example 1: Create booking successfully</h4>
 
 <h2>Endpoint:</h2> /api/booking
 
