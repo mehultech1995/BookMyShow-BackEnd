@@ -109,9 +109,9 @@ GET /api/booking Host: loclahost:8080 Content-Type: application/json
 }
 
 <h5>Example Response (200 Not Found):</h5>
-{
+<p>{
 "error": {
 "code": 200,
 "message": "No previous booking found."
 }
-}
+}<p>
