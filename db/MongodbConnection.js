@@ -4,7 +4,7 @@ require("dotenv").config();
 
 
 const mongoLiveURI = process.env.MONGO_LIVE_URL;
-// const mongoLiveURI = 'mongodb+srv://mehul8299:shaurya%401995@cluster0.pqsblny.mongodb.net/';
+
 
 
 

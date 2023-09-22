@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 
-const { connection } = require("./db/connection");
+const { connection } = require("./db/MongodbConnection");
 const bodyParser = require("body-parser");
 require("dotenv").config();
 
