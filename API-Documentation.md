@@ -31,13 +31,13 @@ The BookMyShow API provides the of endpoints to add movie booking details as wel
 
 <h4>Example 1: Create booking successfully</h4>
 
-<p><h4>Endpoint:</h4> /api/booking</p>
+<p>Endpoint: /api/booking</p>
 
-<p><h4>Method:</h4> POST
+<p>Method: POST</p>
 
-Description: Add booking details.
+<p>Description: Add booking details.</p>
 
-POST /api/booking Host: loclahost:8080 Content-Type: application/json
+<p>POST /api/booking Host: loclahost:8080 Content-Type: application/json</p>
 
 { "movie": "OMG 2", "slot": "03:00 PM", "seats": { "A1": 0, "A2": 0, "A3": 4, "A4": 0, "D1": 0, "D2": 0 } }
 
