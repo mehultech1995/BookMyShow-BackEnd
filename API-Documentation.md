@@ -27,13 +27,13 @@ The BookMyShow API provides the of endpoints to add movie booking details as wel
 <p>:arrow_right: Response Data</p>
 { "movie": "OMG 2", "slot": "03:00 PM", "seats": { "A1": 0, "A2": 0, "A3": 4, "A4": 0, "D1": 0, "D2": 0 }, "_id": "64d0af4709a4852908bede8d", "bookedAt": "2023-09-22T08:45:59.544Z", "__v": 0}
 
-<h3>Response Codes:</h3>
+<h4>Response Codes:</h4>
 
-<h3>Example 1: Create booking successfully</h3>
+<h4>Example 1: Create booking successfully</h4>
 
-<h2>Endpoint:</h2> /api/booking
+<p><h4>Endpoint:</h4> /api/booking</p>
 
-</h2>Method:</> POST
+<p><h4>Method:</h4> POST
 
 Description: Add booking details.
 
