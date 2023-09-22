@@ -12,10 +12,10 @@ The BookMyShow API provides the of endpoints to add movie booking details as wel
 
 <h4>Create a Movie Booking</h4>
 
-<p>Endpoint: /api/booking</p>
-<p>Method: POST</p>
-<p>Description: This endpoint allows you to create a new movie booking.</p>
-<p>Request body</p>
+<p> :arrow_right: Endpoint: /api/booking</p>
+<p>:arrow_right: Method: POST</p>
+<p>:arrow_right: Description: This endpoint allows you to create a new movie booking.</p>
+<p>:arrow_right: Request body</p>
 
 { "movie": "OMG 2", "slot": "03:00 PM", "seats": { "A1": 0, "A2": 0, "A3": 4, "A4": 0, "D1": 0, "D2": 0 } }
 
