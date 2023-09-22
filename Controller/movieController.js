@@ -15,7 +15,7 @@ const storeBooking = async (req, res) => {
     } catch (error) {
         console.log("error", error.message);
         return res.status(500).json({
-            message:"something went wrong!",
+            message:"An unexpected error occurred. Please try again later.",
             status:500,
             data:{}
         })
