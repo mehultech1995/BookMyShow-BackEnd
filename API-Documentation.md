@@ -1,9 +1,9 @@
 <p>This documentation provides detailed information on how to interact with our API to access various resources and functionalities within our application. Whether you are building a web or mobile application, this guide will help you integrate with our API seamlessly.
 
-The BookMyShow API provides the of endpoints to add movie booking details as well as retrieve last booking details.</p>
+The BookMyShow API provides of endpoints to add movie booking details as well as retrieve the last booking details.</p>
 
 <h1> Getting started <h1/>
-<h3> The endpoints will interact with bookMovie database. </h3>
+# <h3> The endpoints will interact with the bookMovie database. </h3>
  
 <h4>Function</h4>
 <h5>POST Booking</h5>
